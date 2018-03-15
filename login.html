@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/home.css">
+	<link rel="stylesheet" type="text/css" href="style/login.css">
+	<title>MotoPesho</title>
+</head>
+
+<body>
+	<ul class="navbar">
+	  <li><a class="active" href="home.html">Home</a></li>
+	  <li><a href="news.html">News</a></li>
+	  <li class="dropdown">
+		<a href="#products" class="dropbtn">Products</a>
+		<div class="dropdown-content">
+		  <a href="#">Sport Bikes</a>
+		  <a href="#">Scooters</a>
+		  <a href="#">Enduro</a>
+		  <a href="#">Dirt Bike</a>
+		  <a href="#">Tourer</a>
+		  <a href="#">Cruiser</a>
+		</div>
+	  </li>
+	  <li class="right"><a href="about.html">About</a></li>
+	  <li class="right"><a href="login.html">Login</a></li>
+	  <li class="right"><a href="sign_up.html">Sign up</a></li>
+	</ul>
+
+	<div class="background">
+		<video autoplay muted loop class="background_video">
+		  <source src="images/background_video.mp4" type="video/mp4">
+		  Your browser does not support HTML5 video.
+		</video>
+	</div>
+	
+	<div class="login_form">
+	<form action="##">
+	  <div class="imgcontainer">
+		<img src="images/avatar.png" alt="Avatar" class="avatar">
+	  </div>
+
+	  <div class="container">
+		<label for="uname"><b>Username</b></label>
+		<input type="text" placeholder="Enter Username" name="uname" required>
+
+		<label for="psw"><b>Password</b></label>
+		<input type="password" placeholder="Enter Password" name="psw" required>
+			
+		<button type="submit" class="loginbtn">Login</button>
+		<label>
+		  <input type="checkbox" checked="checked" name="remember"> Remember me
+		</label>
+	  </div>
+
+	  <div class="container">
+		<button type="button" class="cancelbtn" OnClick="location.href='home.html'">Cancel</button>
+		<span class="psw"><a href="##">Forgot password?</a></span>
+	  </div>
+	</form>
+	</div>
+
+</body>
+</html>
