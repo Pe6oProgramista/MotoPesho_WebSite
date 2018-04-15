@@ -1,9 +1,14 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-form {border: 3px solid #333; background-color: #333;}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+	border: 3px solid #333;
+}
 
 input[type=text], input[type=password] {
     width: 100%;
-    padding: 12px 20px;
+    padding: 8px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -41,11 +46,11 @@ button:hover:not(.cancelbtn) {
 
 .imgcontainer {
     text-align: center;
-    margin: 50px 0 12px 0;
+    margin: 5px 0 12px 0;
 }
 
 img.avatar {
-    width: 30%;
+    width: 25%;
     border-radius: 75%;
 }
 
@@ -82,9 +87,12 @@ span.psw a {
 }
 
 .login_form {
+	background-color: #333;
+	border-style: solid;
+    border-width: thin;
 	position: fixed;
 	left: 50%;
-	top: 55%;
+	top: 53%;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	width: 40%;

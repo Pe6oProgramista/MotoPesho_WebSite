@@ -1,0 +1,17 @@
+.menu {
+	background-color: #333;
+	border-style: solid;
+    border-width: thin;
+	position: fixed;
+	left: 50%;
+	top: 53%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 40%;
+	padding: 1px -100% 1px 1px;
+}
+
+.menu img {
+	width: 65%;
+	height: 65%;
+}
