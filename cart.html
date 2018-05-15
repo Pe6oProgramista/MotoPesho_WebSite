@@ -4,34 +4,38 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style/home.css">
 	<link rel="stylesheet" type="text/css" href="style/categories.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<title>MotoPesho</title>
 </head>
 
 <body>
-	<ul class="navbar">
-	  <li><a class="active" href="home.html">Home</a></li>
-	  <li><a href="news.html">News</a></li>
-	  <li class="dropdown">
-		<a href="#products" class="dropbtn">Products</a>
-		<div class="dropdown-content">
-		  <a href="sport_bikes.html">Sport Bikes</a>
-		  <a href="scooters.html">Scooters</a>
-		  <a href="enduro.html">Enduro</a>
-		  <a href="dirt_bike.html">Dirt Bikes</a>
-		  <a href="tourers.html">Tourers</a>
-		  <a href="cruisers.html">Cruisers</a>
-		</div>
-	  </li>
-	  <li class="right"><a href="about.html">About</a></li>
-	  <li class="right"><a href="home.html">Sign out</a></li>
-	   <li class="right"><a href="profil.html">Profile</a></li>
-	</ul>
+	<div class="toggle">
+		<i id="toggleIcon" class="fa fa-bars"></i>
+	</div>
+	<nav class="shown" id="nav">
+		<ul class="navbar">
+			<li><a class="active" href="home.html">Home</a></li>
+			<li><a href="news.html">News</a></li>
+			<li class="dropdown">
+				<a href="#products">Products</a>
+				<div class="dropdown-content">
+					<a href="sport_bikes.html">Sport Bikes</a>
+					<a href="scooters.html">Scooters</a>
+					<a href="enduro.html">Enduro</a>
+					<a href="dirt_bike.html">Dirt Bikes</a>
+					<a href="tourers.html">Tourers</a>
+					<a href="cruisers.html">Cruisers</a>
+				</div>
+			</li>
+			<li class="right"><a href="about.html">About</a></li>
+			<li class="right"><a href="login.html">Logout</a></li>
+			<li class="right"><a href="profil.html">Profile</a></li>
+			<li class="right"><a href="cart.html">Cart</a></li>
+		</ul>
+	</nav>
 
 	<div class="background">
-		<video autoplay muted loop class="background_video">
-		  <source src="images/background_video.mp4" type="video/mp4">
-		  Your browser does not support HTML5 video.
-		</video>
+		<video id="background_video" autoplay="" muted="" loop="" src="images/background_video.mp4"></video>
 	</div>
 	
 	<div class="menu">
@@ -61,5 +65,28 @@
 		</div>
 	</div>
 	
+	<footer>
+        <div class="footer-container">
+			<div class="social">
+				<ul>
+					<li><a href="https://www.facebook.com/petar.milev.90" class="icon-social-facebook" alt="Facebook"><img src="images/facebook.svg"></a></li>
+					<li><a href="https://www.youtube.com/channel/UCsoeDJMSMlR1DHCQAjvdLRg?view_as=subscriber" class="icon-social-youtube" alt="YouTube"><img src="images/youtube.svg"></a></li>
+					<li><a href="https://www.instagram.com/p.milev3/" class="icon-social-instagram" alt="Instagram"><img src="images/instagram.svg"></a></li>
+                </ul>
+			</div>
+			<hr>
+			<small class="footer-primary__smallprint h8">
+				<span class="h8">Copyright 2018 Pesho Programista, all rights reserved</span>
+				<a href="#" class="h6 footer-primary__scrolltop" data-scroll="top">
+					<i class="fas fa-angle-double-up"></i>
+					<span>
+						back to top
+					</span>
+				</a>
+			</small>
+		</div>
+	</footer>
+	
+	<script src="scripts/toggleBtn.js"></script>
 </body>
 </html>

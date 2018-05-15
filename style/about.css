@@ -1,5 +1,5 @@
 .information div {
-	position: relative;
+	position: absolute;
 	top: 340px;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.information .background {
+.information .background-img {
 	filter: blur(3px) grayscale(20%);
 	
     background-image: url("../images/2017-Indian-motorcycle-rangecrop2.jpg");
@@ -22,9 +22,9 @@
 }
 
 .information .text {
+	text-shadow: 2px 1px 1px black;
 	text-decoration: none;
 	font-size:27px;
-	position: absolute;
 	font-weight: 900;
 	color: white;
 }

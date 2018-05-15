@@ -13,9 +13,9 @@
 	left: 50%;
 	top: 650px;
 	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	transform: translate(20%, -50%);
 	width: 80%;
-	position: absolute;
+	position: none;
 	overflow: hidden;
 }
 
