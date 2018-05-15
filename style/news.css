@@ -1,0 +1,60 @@
+.parallax-background {
+    background-image: url("../images/middleweight-sportbikes-comparo-groupstatic-292-hero.jpg");
+
+	min-height: 600px;
+	
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news {
+	left: 50%;
+	top: 650px;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 80%;
+	position: absolute;
+	overflow: hidden;
+}
+
+.new {
+	display: block;
+	position: relative;
+	width: 30%;
+	float: left;
+	overflow: hidden;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#best {
+	width: 60%;
+}
+
+.new a {
+	text-decoration: none;
+}
+
+.new-title {
+	font-size: 1.9rem;
+	background-color: rgba(51,51,51,0.7);
+	bottom: 0;
+	color: #fff;
+	font-family: "Homenaje","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+	line-height: 1;
+	margin: 0;
+	padding: 0.75rem 1rem;
+	position: absolute;
+	width: 100%;
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+	box-sizing: border-box;
+	cursor: default;
+}
+
+.new img {
+	width: 100%;
+}
