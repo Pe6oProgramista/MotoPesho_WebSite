@@ -1,0 +1,16 @@
+body {
+	background-image: url("../images/middleweight-sportbikes-comparo-groupstatic-292-hero.jpg");
+}
+
+#map {
+	top: 10vh;
+	left: 20vw;
+	border:1px solid black;
+	width: 60vw;
+	height: 80vh;
+	position: none;
+}
+
+footer {
+	margin-top: 300px;
+}
